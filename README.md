@@ -1,4 +1,4 @@
-# XEL-GUI-MINER 0.0.5.0
+# XEL-GUI-MINER 0.0.5.0 for Windows
 ### Works only with testnet 
 You can downloud it here https://github.com/tieandsuit/XEL-GUI-MINER/releases
 
