@@ -12,7 +12,7 @@
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\ibux\Desktop\New miner gui\</PublishUrl>
+    <PublishUrl>C:\Users\ibux\Desktop\New miner gui\done\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -121,6 +121,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="logo.ico" />
+    <None Include="Resources\turn-off.png" />
+    <None Include="Resources\information.png" />
+    <None Include="Resources\right-arrow.png" />
+    <None Include="Resources\cms %282%29.png" />
+    <None Include="Resources\cms %281%29.png" />
+    <None Include="Resources\cms.png" />
+    <None Include="Resources\197-1970594_icon-data-mining-logo-clipart.png" />
+    <None Include="Resources\xel_white.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

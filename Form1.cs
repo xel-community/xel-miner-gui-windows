@@ -12,7 +12,11 @@ namespace launcher
 
 {
     public partial class Form1 : Form
+       
     {
+        private bool _dragging = false;
+        private Point _offset;
+        private Point _start_point = new Point(0, 0);
         private static string[] MiningURL = { "testnet-01.xel.org:16876", "testnet-02.xel.org:16876" };
 
         private static string[] Executables = { "xel_miner.exe" };
@@ -37,7 +41,6 @@ namespace launcher
             FirstTime = false;
 
             comboBox1.SelectedIndex = Config.ConfigData.Location;
-            textBox1.Text = Config.ConfigData.XelAddress;
             textBox2.Text = Config.ConfigData.WorkerName;
             comboBox2.SelectedIndex = Config.ConfigData.Extension;
             numericUpDown1.Value = Config.ConfigData.Threads;
@@ -67,7 +70,7 @@ namespace launcher
 
             string Worker = textBox2.Text.Trim();
             if (Worker.Length > 0)
-                Worker = textBox1.Text.Trim() + "  " + Worker;
+                Worker = textBox1.Text.Trim() + "  " + Worker ;
             else
                 Worker = textBox1.Text.Trim();
 
@@ -204,6 +207,61 @@ namespace launcher
         private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://wiki.xel.org/support-wiki");
+        }
+
+        private void richTextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox2_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel8_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        {
+            _dragging = true;
+            _start_point = new Point(e.X, e.Y);
+        }
+
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (_dragging)
+            {
+                Point p = PointToScreen(e.Location);
+                Location = new Point(p.X - this._start_point.X, p.Y - this._start_point.Y);
+            }
+        }
+
+        private void Form1_MouseUp(object sender, MouseEventArgs e)
+        {
+            _dragging = false;
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void panel1_MouseDown(object sender, MouseEventArgs e)

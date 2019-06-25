@@ -23,7 +23,7 @@ namespace launcher
         {
             // Set defaults
             ConfigData = new Config();
-            ConfigData.WorkerName = "Passphrase";
+            ConfigData.WorkerName = "Use Quotes !!! ";
             ConfigData.Location = 0;
             ConfigData.Threads = Environment.ProcessorCount;
             ConfigData.Extension = 0;
