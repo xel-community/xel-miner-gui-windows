@@ -17,7 +17,7 @@ namespace launcher
         private bool _dragging = false;
         private Point _offset;
         private Point _start_point = new Point(0, 0);
-        private static string[] MiningURL = { "testnet-01.xel.org:16876", "testnet-02.xel.org:16876" };
+        private static string[] MiningURL = { "localhost:17876", " node-03.xel.org:17876", "tnode-04.xel.org:17876", "testnet-06.xel.org:16876", "testnet-01.xel.org:16876", "testnet-02.xel.org:16876" };
 
         private static string[] Executables = { "xel_miner.exe" };
 
