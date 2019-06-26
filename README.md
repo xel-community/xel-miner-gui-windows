@@ -5,7 +5,7 @@
 
 ![AI](Screenshot_14.png)
 
-### miner with out gui you can find here 
+### Miner with out GUI you can find here 
 https://github.com/xel-software/xel-miner
 
 ## XEL-GUI-MINER 0.0.7.1 for Windows
