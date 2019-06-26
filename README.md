@@ -2,8 +2,11 @@
 * Showing Cpu usage 
 * GUI reworked again :)
 * Added some comments inside a code 
+
 ![AI](Screenshot_14.png)
+
 ## XEL-GUI-MINER 0.0.7.1 for Windows
+
 
 * Added Tooltip
 * Opened To Mainnet
