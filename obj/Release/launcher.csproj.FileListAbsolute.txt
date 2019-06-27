@@ -16,3 +16,4 @@ C:\Users\ibux\Desktop\XEL-GUI-MINER-master\obj\Release\launcher.application
 C:\Users\ibux\Desktop\XEL-GUI-MINER-master\obj\Release\launcher.csproj.CopyComplete
 C:\Users\ibux\Desktop\XEL-GUI-MINER-master\obj\Release\launcher.exe
 C:\Users\ibux\Desktop\XEL-GUI-MINER-master\obj\Release\launcher.pdb
+C:\Users\ibux\Desktop\XEL-GUI-MINER-master\obj\Release\launcher.csprojAssemblyReference.cache
