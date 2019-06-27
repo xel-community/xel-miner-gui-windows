@@ -1,9 +1,16 @@
-# XEL-GUI-MINER 0.1.0.0 for Windows
+## XEL-GUI-MINER 0.1.0.1 for Windows
+
+* Requested for minimization of miner
+* GUI rearrangement
+
+![AI](Screenshot_17.png)
+
+## XEL-GUI-MINER 0.1.0.0 for Windows
 * Showing Cpu usage 
 * GUI reworked again :)
 * Added some comments inside a code 
 
-![AI](Screenshot_14.png)
+
 
 ### Miner with out GUI you can find here 
 https://github.com/xel-software/xel-miner
